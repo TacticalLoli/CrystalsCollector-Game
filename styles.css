@@ -1,0 +1,35 @@
+body{
+    background-image: url("images/trump-emeralds.jpg");
+    
+}
+
+.gametitle{
+    background-color: #4d79ff;
+    padding: 20px;
+    width: auto;
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+    font-size: 40px;
+    opacity: .7;
+    font-weight: bolder;
+}
+
+#rules{
+    background-color: #cc33ff;
+    margin: 0px 180px;
+    padding: 10px;
+
+}
+
+#rules p{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+#goal-number{
+    background-color: #00b386;
+    height: 100px;
+    margin: 20px 180px;
+}
+
