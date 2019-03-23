@@ -19,22 +19,26 @@
         <p>The Emeralds will have different values every new game start.</p>
     </div>
 
-    <div id="goal-number"></div>
+    <div id="goal-number">Goal: <span id="number-goal"></span></div>
 
-    <div>
-        <!--Emerold images using img tags (4 pics)-->
+    <div class="img-back">
+        <img id="em1" src="images/red.jpg" alt="red">
+        <img id="em2" src="images/purple.jpg" alt="purple">
+        <img id="em3" src="images/green.jpg" alt="green">
+        <img id="em4" src="images/blue.jpg" alt="blue">
+    </div>   
+
+    <div id="my-total">
+        <h2>Total: <span id="current"></span> </h2>
     </div>
 
-    <div>
-        <h2 id="my-total"></h2>
-    </div>
-
-    <div>
-        <p id="wins"></p>
-        <p id="losses"></p>
+    <div id="wl-box">
+        <p id="wins">Wins: <span id="win-counter"></span></p>
+        <p id="losses">Losses: <span id="loss-counter"></span></p>
     </div>
 </div>
 
-    <script src="logic.js"></script>
-</body>
+<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="logic.js"></script>
+</body> 
 </html>
